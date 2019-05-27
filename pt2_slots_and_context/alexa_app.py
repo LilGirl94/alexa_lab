@@ -149,7 +149,7 @@ def received_affirm():
 @ask.intent("deny")
 def received_deny():
 
-    msg = render_template('utter_goodbye')
+    msg = render_template('utter_new_booking')
 
     return statement(msg)
 
